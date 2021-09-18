@@ -3,16 +3,16 @@
     {
       "id": 1,
       "message": "Changed network card in server 006",
-      "attention": true,
-      "tech": "Sara Smith",
-      "date": "2021-09-18T15:02:25.464Z"
+      "attention": false,
+      "tech": "John  Doe",
+      "date": "2021-09-18T17:22:24.120Z"
     },
     {
       "id": 3,
       "message": "1100 Wireless fixed",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2021-09-18T00:05:05.355Z"
+      "tech": "John  Doe",
+      "date": "2021-09-18T17:22:18.239Z"
     }
   ],
   "techs": [

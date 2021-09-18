@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { UpdateLog, clearCurrent } from '../../actions/logActions';
+import { UpdateLog } from '../../actions/logActions';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 import TechSelectOptions from '../techs/TechSelectOptions';
@@ -20,7 +20,7 @@ const EditLogModal = () => {
       setTech(current.tech);
       setAttention(current.attention);
 
-      return () => dispatch(clearCurrent(current));
+      // return () => dispatch(clearCurrent(current));
     }
   }, [dispatch, current]);
 
@@ -94,13 +94,12 @@ const EditLogModal = () => {
         </div>
       </div>
       <div className='modal-footer'>
-        <a
-          href='#!'
+        <button
           onClick={onSubmit}
           className='modal-close waves-effect blue waves-light btn'
         >
           Enter
-        </a>
+        </button>
       </div>
     </div>
   );
