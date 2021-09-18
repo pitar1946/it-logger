@@ -15,11 +15,11 @@ const TechItem = ({ tech: { id, firstName, lastName } }) => {
     <li className='collection-item'>
       <div>
         {firstName} {lastName}
-        <a href='#!' className='secondary-content'>
+        <span className='secondary-content'>
           <i className='material-icons grey-text' onClick={onDelete}>
             delete
           </i>
-        </a>
+        </span>
       </div>
     </li>
   );

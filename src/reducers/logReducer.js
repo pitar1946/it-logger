@@ -55,6 +55,7 @@ export const logReducer = (state = initialState, action) => {
       return {
         ...state,
         current: action.payload,
+        loading: false,
       };
     case CLEAR_CURRENT:
       return {
