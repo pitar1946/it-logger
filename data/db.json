@@ -2,17 +2,17 @@
   "logs": [
     {
       "id": 1,
-      "message": "Changed network card in server 006",
-      "attention": false,
+      "message": "Changed network card in server 007",
+      "attention": true,
       "tech": "John  Doe",
-      "date": "2021-09-18T17:22:24.120Z"
+      "date": "2021-09-20T19:07:19.805Z"
     },
     {
       "id": 3,
       "message": "1100 Wireless fixed",
       "attention": false,
-      "tech": "John  Doe",
-      "date": "2021-09-18T17:22:18.239Z"
+      "tech": "Sara Smith",
+      "date": "2021-09-18T19:26:13.882Z"
     }
   ],
   "techs": [
