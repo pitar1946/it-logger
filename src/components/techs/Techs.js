@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getTechs } from '../../actions/techActions';
 import { Link } from 'react-router-dom';
+import Preloader from '../layout/Preloader';
 
 import TechItem from './TechItem';
 
@@ -13,6 +14,10 @@ const Techs = () => {
   useEffect(() => {
     dispatch(getTechs());
   }, [dispatch]);
+
+  if (loading || techs === null) {
+    return <Preloader />;
+  }
   return (
     <>
       <div className='row'>

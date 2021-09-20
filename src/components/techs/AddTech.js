@@ -37,6 +37,7 @@ const AddTech = () => {
           <input
             type='text'
             name='firstName'
+            autoComplete='off'
             value={firstName}
             onChange={(e) => setFirstName(e.target.value)}
           />
@@ -51,6 +52,7 @@ const AddTech = () => {
           <input
             type='text'
             name='lastName'
+            autoComplete='off'
             value={lastName}
             onChange={(e) => setLastName(e.target.value)}
           />
